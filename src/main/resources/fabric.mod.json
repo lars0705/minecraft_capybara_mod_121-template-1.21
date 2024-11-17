@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "minecraft_capybara_mod_121",
+	"version": "${version}",
+	"name": "Minecraft_Capybara_Mod_1.21",
+	"description": "A mod that adds capybaras to minecraft!",
+	"authors": [
+		"lars.556 on instagram"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/minecraft_capybara_mod_121/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.lars.Minecraft_Capybara_Mod_121"
+		],
+		"fabric-datagen": [
+			"net.lars.Minecraft_Capybara_Mod_121DataGenerator"
+		],
+		"client": [
+			"net.lars.Minecraft_Capybara_Mod_121Client"
+		]
+	},
+	"mixins": [
+		"minecraft_capybara_mod_121.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
