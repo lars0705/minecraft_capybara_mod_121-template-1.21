@@ -11,6 +11,6 @@ public class Minecraft_Capybara_Mod_121 implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+//extrem wichtiger comment
 	}
 }
